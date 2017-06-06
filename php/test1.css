@@ -1,0 +1,56 @@
+/* CSS Document */
+
+h1{ text-align:center;}
+/*图片显示属性*/
+.chedan{
+	height:500px;
+	width:800px;
+}
+div.img
+  {
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  display:inline-table;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+  }
+div.img a:hover img
+  {
+  border:1px solid #333333;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:auto;
+  font-size:12px;
+  margin:10px 5px 10px 5px;
+  }
+.show
+{
+	text-align:center;
+	width:auto;
+	border:1px solid #bebebe;
+	overflow:hidden;
+
+}
+.common
+{
+	width:auto;
+	border:1px solid #bebebe;
+	text-align:left;
+	margin:3px;
+	word-wrap:break-word;
+}
+p{
+}
+/*body属性*/
+.bodycss{
+}
