@@ -1,0 +1,28 @@
+整型：
+数据类型 字节
+TINYINT   1
+SMALLINT  2
+MEDIUMINT 3
+INT       4
+BIGINT    8
+
+浮点型：M数字总位数 D小数点后位数
+FLOAT[(M,D)]
+DOUBLE[(M,D)]
+
+日期时间性：用的比较少
+YEAR        1
+TIME        3
+DATE        3
+DATETIME    8
+TIMESTAMP   4   时间戳
+
+字符型：
+CHAR(M)             定长（M）个字节 0<=M<=255 未达到指定长度以空格补全
+VARCHAR(M)          可变长 L+1个字节 L<=M0<=M<=65535 
+TINYTEXT            
+TEXT                
+MEDIUNTEXT          
+LONGTEXT            
+ENUM('value1','value2',...)     在几个值之间选择
+SET('value1','value2',...)      集合 最多64个成员 可在成员中做排列组合
