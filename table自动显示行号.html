@@ -1,0 +1,48 @@
+<table id="tbl" width="600" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<script type="text/javascript">
+var obj = document.getElementById("tbl");
+var rowNum = obj.rows.length;
+
+try{
+for(var i=0;i<rowNum;i++){
+obj.rows[i].cells[0].style.textAlign = "center";
+obj.rows[i].cells[0].style.width = 20;
+obj.rows[i].cells[0].innerHTML = (i+1).toString();
+}
+}
+catch(e)
+{
+alert(e.description);
+}
+</script>
